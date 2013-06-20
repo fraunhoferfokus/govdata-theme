@@ -21,7 +21,7 @@
 	<meta name="keywords" content="GovData, OpenData, Datenlizenz Deutschland, Offene Daten, Datenportal Deutschland ">
 	<meta name="author" content="Bundesministerium des Inneren gemeinsam mit Fraunhofer FOKUS">
 	<META name="page-topic" content="Government, Verwaltung, Daten, Offene Daten, Open Data">
-	<meta property="og:title" content="GovData.de | Das Datenportal f&uuml;r Deutschland"/>
+	<meta property="og:title" content="$the_title - $company_name"/>
     <meta property="og:type" content="government"/>
     <meta property="og:url" content="$themeDisplay.getPortalURL()$themeDisplay.getURLCurrent()"/>
     <meta property="og:image" content="http://www.govdata.de/ogpd-theme/images/ogpd/govdata.jpg"/>
