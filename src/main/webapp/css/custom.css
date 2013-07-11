@@ -34,7 +34,7 @@ a {
 }
 
 a:hover {
-	color:#006699 !important;
+	color: #006699 !important;
 	text-decoration: underline;
 }
 
@@ -43,8 +43,6 @@ a:hover {
 	height: auto;
 	padding-top: 10px;
 }
-
-
 
 hr,.separator {
 	border-color: #BFBFBF transparent #FFF;
@@ -63,7 +61,7 @@ hr,.separator {
 	text-align: left;
 }
 
-#wrapper, #topwrapper {
+#wrapper,#topwrapper {
 	background: transparent;
 	margin: 0 auto;
 	width: 1028px;
@@ -71,7 +69,7 @@ hr,.separator {
 }
 
 #wrapper {
-	margin-top:75px;
+	margin-top: 75px;
 }
 
 #main-content {
@@ -144,7 +142,7 @@ body #banner .logo a {
 	right: 0;
 	text-decoration: none;
 	top: 28px;
-	color:#121212 !important;
+	color: #121212 !important;
 }
 
 .guest-community .logo .current-community {
@@ -417,4 +415,11 @@ body #banner .logo a {
 	-webkit-border-bottom-left-radius: 0;
 	border-top-left-radius: 0;
 	border-bottom-left-radius: 0;
+}
+
+.format_flag {
+	display: inline-block;
+	margin-right: 15px;
+	width: 25px;
+	float: left;
 }
