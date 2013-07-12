@@ -419,7 +419,7 @@ body #banner .logo a {
 
 .format_flag {
 	display: inline-block;
-	margin-right: 15px;
-	width: 25px;
+	margin-right: 5px;
+	max-width: 35px;
 	float: left;
 }
