@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-        <artifactId>od-platform</artifactId>
-        <groupId>de.fhg.fokus.odp</groupId>
-        <version>1.1.0-SNAPSHOT</version>
-    </parent>
-	<artifactId>ogpd-theme</artifactId>
+		<artifactId>od-platform</artifactId>
+		<groupId>de.fhg.fokus.odp</groupId>
+		<version>1.1.0-SNAPSHOT</version>
+	</parent>
+	<artifactId>govdata-theme</artifactId>
 	<packaging>war</packaging>
-	<name>OGPD Theme</name>
-	<version>1.1.0-SNAPSHOT</version>
+	<name>GovData Theme</name>
 	<scm>
-		<developerConnection>scm:git:git://193.175.133.248:odp-ogpd-theme</developerConnection>
+		<developerConnection>scm:git:git@gitlab.fokus.fraunhofer.de:opendataplatform/govdata-theme.git</developerConnection>
 	</scm>
 	<build>
 		<finalName>${project.artifactId}-${project.version}-${buildNumber}</finalName>
