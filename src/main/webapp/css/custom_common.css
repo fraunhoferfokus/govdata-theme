@@ -751,7 +751,7 @@ b,strong {
 .ie7 #heading {
 	width: 240px;
 	height: 120px;
-	background: url(/ogpd-theme/images/ogpd/govdata_logo.png) no-repeat;
+	background: url(/govdata-theme/images/ogpd/govdata_logo.png) no-repeat;
 }
 
 .categories-grid-description {
