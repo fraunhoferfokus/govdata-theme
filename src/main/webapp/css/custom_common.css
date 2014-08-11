@@ -1,3 +1,4 @@
+/* ------ 28.03.2014 ----- */
 .yui3-widget.aui-component.aui-panel.aui-dialog.yui3-widget-positioned.yui3-widget-stacked.yui3-dd-draggable.aui-resize
 	{
 	z-index: 1300 !important;
@@ -8,7 +9,10 @@
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 	clear: both;
-	padding: 15px;
+	/*	padding: 15px; msg 4.4.2014*/
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 #p_p_id_33_ {
@@ -85,7 +89,8 @@
 
 /* ---------- Suche Portlet styles ---------- */
 .portlet-borderless-container {
-	margin: 20px 0;
+		/*	margin: 20px 0; msg 4.4.2014*/
+	margin: 5px 0;
 }
 
 .resultentry,.filter {
@@ -283,6 +288,12 @@ a:focus,li:focus,h1:focus,h2:focus,h3:focus,h4:focus,btn:focus {
 	padding: 5px 0;
 }
 
+#layout-column_column-3 form input[type="text"] {
+	width: 100%;
+	margin: 0;
+	padding: 5px 0;
+}
+
 .simpleSearchPane .btn.btn-primary,input[type=image] {
 	position: absolute;
 	right: 5px;
@@ -450,6 +461,13 @@ h4 {
 	line-height: 22px;
 	font-weight: 500;
 	border-bottom: 1px dotted #ccc;
+}
+
+h4.noborder {
+	font-size: 22px;
+	line-height: 22px;
+	font-weight: 500;
+	border-bottom: 0px;
 }
 
 #accordion h4 {
@@ -647,7 +665,8 @@ h4 {
 }
 
 .required-input {
-	color: #FFBF00;
+	/*color: #FFBF00;*/
+	color: #FF0000;
 }
 
 .error-message {
@@ -658,6 +677,9 @@ h4 {
 	max-width: 35px;
 	width: auto;
 	height: auto;
+	/* msg BEGIN 20.5.2014 flag deckt external link button */
+	padding-right: 8px;
+	/* msg END 20.5.2014 flag deckt external link button */
 }
 
 /****** Metadata Types ******/
@@ -795,4 +817,29 @@ input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-se
 	text-align: right;
 	margin-left: 15em;
 	margin-top: 1em;
+}
+
+.defaultGrey {
+	color: grey;
+}
+
+#blockMe {
+	border: 1px solid red;
+	height: 300px;
+	width: 400px;
+	position: relative;
+}
+
+.blockOverlay {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.blockElement {
+	width: 100%;
+	height: 100%;
+}
+
+.blockPage {
+	top: 50%;
+	left: 50%;
 }

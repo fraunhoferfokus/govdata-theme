@@ -238,6 +238,10 @@ body.portlet {
 	background-image: url(../images/messages/alert.png);
 	background-position: 6px 20%;
 	border-color: #FC0;
+	/* BEGIN msg 23.5.2014 wegen wiederholen von image alert meldung */
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	/* END msg 23.5.2014 wegen wiederholen von image nach alert meldung */
 }
 
 /* ---------- Success messages ---------- */
@@ -248,6 +252,10 @@ body.portlet {
 	background-image: url(../images/messages/success.png);
 	border-color: #ACDFA7;
 	color: #384F34;
+	/* BEGIN msg 15.5.2014 wegen wiederholen von image nachdem registrieren erfolg meldung */
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	/* END msg 15.5.2014 wegen wiederholen von image nachdem registrieren erfolg meldung */
 }
 
 /* ---------- Message labels ---------- */

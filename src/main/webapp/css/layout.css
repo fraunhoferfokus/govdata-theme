@@ -1,5 +1,4 @@
 /* ---------- Wrapper ---------- */
-
 .portlet-layout {
 	clear: both;
 	display: table;
@@ -17,16 +16,17 @@
 	padding: 5px 0;
 }
 
-.portlet-column-content-only, .ltr .portlet-column-content-first, .rtl .portlet-column-content-last {
+.portlet-column-content-only,.ltr .portlet-column-content-first,.rtl .portlet-column-content-last
+	{
 	padding-left: 0;
 }
 
-.portlet-column-content-only, .ltr .portlet-column-content-last, .rtl .portlet-column-content-first {
+.portlet-column-content-only,.ltr .portlet-column-content-last,.rtl .portlet-column-content-first
+	{
 	padding-right: 0;
 }
 
 /* ---------- Column widths ---------- */
-
 .portlet-column-content.empty {
 	padding: 50px;
 }
@@ -37,22 +37,21 @@
 	min-height: 100px;
 }
 
-.ie6, .ie7 {
-	div.portlet-layout {
-		height: 1%;
-	}
+.ie6,.ie7 {div .portlet-layout { height:1%;
+	
+}
 
-	div.portlet-column {
-		float: left;
-		overflow: hidden;
-		width: 100%;
-	}
+div.portlet-column {
+	float: left;
+	overflow: hidden;
+	width: 100%;
+}
 
-	div.aui-column-last {
-		margin-right: -1px;
-	}
+div.aui-column-last {
+	margin-right: -1px;
+}
 
-	.portlet-column-content {
-		zoom: 1;
-	}
+.portlet-column-content {
+	zoom: 1;
+}
 }

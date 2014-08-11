@@ -5,11 +5,27 @@
 <html class="#language(" lang.dir")" dir="#language("lang.dir")" lang="$w3c_language_id">
 
 <head>
-	<script type="text/javascript" src="/ogpd-theme/js/jquery.js"> </script> 
-	<script type="text/javascript" src="/ogpd-theme/js/jquery-ui-1.9.0.custom.min.js"> </script>
-	<script type="text/javascript" src="/ogpd-theme/js/jquery.socialshareprivacy.min.js"> </script>
-	<script type="text/javascript" src="/ogpd-theme/js/bootstrap.js"> </script> 
-	<script type="text/javascript" src="/ogpd-theme/js/modernizer.js"> </script> 
+		
+	<script type="text/javascript" src="/govdata-theme/js/jquery.js"> </script> 
+	<script type="text/javascript" src="/govdata-theme/js/jquery-ui-1.9.0.custom.min.js"> </script>	
+	<script type="text/javascript" src="/govdata-theme/js/bootstrap.js"> </script> 
+	<script type="text/javascript" src="/govdata-theme/js/modernizer.js"> </script> 
+	<script type="text/javascript" src="/govdata-theme/js/jquery.flexslider-min.js"> </script> 	
+	<script type="text/javascript" src="/govdata-theme/js/jquery.cookies.js"></script>
+	
+		
+	<script type="text/javascript" src="/govdata-theme/js/socialshareprivacy.js"></script>
+	
+	<script type="text/javascript" src="/govdata-theme/js/modules/facebook.js"></script>
+	<script type="text/javascript" src="/govdata-theme/js/modules/twitter.js"></script>
+	<script type="text/javascript" src="/govdata-theme/js/modules/gplus.js"></script>
+	<script type="text/javascript" src="/govdata-theme/js/locale/de/socialshareprivacy.js"></script>
+	<script type="text/javascript" src="/govdata-theme/js/locale/de/modules/facebook.js"></script>
+	<script type="text/javascript" src="/govdata-theme/js/locale/de/modules/twitter.js"></script>
+	<script type="text/javascript" src="/govdata-theme/js/locale/de/modules/gplus.js"></script>
+	
+	<script type="text/javascript" src="/govdata-theme/js/main.js" charset="utf-8"></script>
+	
 	
 	<title>$the_title - $company_name</title>	
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -24,16 +40,17 @@
 	<meta property="og:title" content="$the_title - $company_name"/>
     <meta property="og:type" content="government"/>
     <meta property="og:url" content="$themeDisplay.getPortalURL()$themeDisplay.getURLCurrent()"/>
-    <meta property="og:image" content="http://www.govdata.de/ogpd-theme/images/ogpd/govdata.jpg"/>
+    <meta property="og:image" content="/govdata-theme/images/ogpd/govdata.jpg"/>
     <meta property="og:site_name" content="GovData.de"/>
     <meta property="og:description" content="GovData, das Datenportal für Deutschland, bietet einen einheitlichen, zentralen Zugang zu Verwaltungsdaten aus Bund, L&auml;ndern und Kommunen."/>
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:url" content="$themeDisplay.getPortalURL()$themeDisplay.getURLCurrent()">
     <meta name="twitter:title" content="GovData.de | Das Datenportal f&uuml;r Deutschland">
     <meta name="twitter:description" content="GovData, das Datenportal für Deutschland, bietet einen einheitlichen, zentralen Zugang zu Verwaltungsdaten aus Bund, L&auml;ndern und Kommunen.">
-    <meta name="twitter:image" content="http://www.govdata.de/ogpd-theme/images/ogpd/govdata.jpg">
+    <meta name="twitter:image" content="/govdata-theme/images/ogpd/govdata.jpg">
 
 	$theme.include($top_head_include)
+	
 	#if ( $is_signed_in ) 
   		#css ($css_main_file)  
  	#end
@@ -41,6 +58,9 @@
 
  	#else
  #end
+
+
+
 
 </head>
 
@@ -108,16 +128,19 @@
 	
 	
 	<div id="ogpd_footer">
-		<div class="footerinner">
-			<div id="navigation_bottom">
-				 $footer-content
-			</div>
-			  <div id="socialshareprivacy"></div>
+	<div id="textbox">
+		<div class="footerinner" style="float: left;">					
+				 $footer-content  				 			
 		</div>
-
+		<div id="share" style="float: right;"></div>
+ 	 <div style="clear: both;"></div>
 	</div>
 
+
+
+
 </div>
+ 
 </body>
 
 $theme.include($bottom_include)

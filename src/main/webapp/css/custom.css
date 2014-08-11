@@ -1,3 +1,4 @@
+/* ------ 28.03.2014 ----- */
 @import url(custom_common.css);
 
 /* ---------- Base styles ---------- */
@@ -423,3 +424,25 @@ body #banner .logo a {
 	max-width: 35px;
 	float: left;
 }
+/*msg 25.02.2014 extract from jsp code*/
+.categoriesTable {
+	width: 100%;
+	height: 130px;
+	text-align: center;
+	vertical-align: top;
+	background: white;
+	border-radius: 5px;
+}
+
+/*.ui-datepicker {   width: 116px;   }  */
+.hil {
+	width: 530px;
+}
+
+/* msg BEGIN 20.5.2014  external link button */
+.externalLink {
+	background: url("../images/external_link.png") no-repeat scroll right
+		center transparent;
+	padding-right: 13px;
+}
+/* msg END 20.5.2014 external link button */
